@@ -57,10 +57,9 @@ class Program
                     Console.WriteLine("Invalid input. Please enter either 'Heads' or 'Tails'. ");
                 }
             }
-
-            Console.WriteLine("Thank you " + name + ". You got a score of " + score + " !");
             
-
+            Console.WriteLine("Thank you " + name + ". You got a score of " + score + " !");
+            Console.WriteLine("Challenge is over. You played well " + name + " !!!");
         }
         
     }
